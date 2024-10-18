@@ -8,7 +8,7 @@ section .text
 
 _start:
     mov rax, [num1]
-    mov rax, [num2]
+    add rax, [num2]
     mov [result], rax
     mov rax,60
     xor rdi, rdi
